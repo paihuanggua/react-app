@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #f99;
+}
+
+#app{
+	width: 100%;
+	height: 100%;
+}
+.app{
+	width: 100%;
+	height: 100%;
+}
+.sidebar{
+	width: 280px;
+	height: 100%;
+	padding-left: 20px;
+	background: #999;
+	float: left;
+}
+.sidebar li{
+	height: 20px;
+	width: 100%;
+	line-height: 20px;
+	font-size: 18px;
+	color: #fff;
+}
+.rightCon{
+	float: left;
+}
+.toolbar{
+	width: 100%;
+	height: 50px;
+	background: #666;
+	overflow: hidden;
+}
+.header_lBtn{
+	float: left;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.header_rBtn{
+	float: left;
+	margin-left: 170px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.header_rBtn a{
+	float: left;
+	margin-right: 10px;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #fff;
+}
+.modal{
+	position: fixed;;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: black;
+	opacity: 0.5;
+}
+.modal_con{
+	width: 500px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left:-250px;
+	margin-top:-200px;
+	background: #fff;  
+}
+.modal_con textarea{
+	width: 100%;
+	height: 100px;
+}
+.card{
+	width: 200px;
+	height: 100px;
+	background: #fff;
+	display: inline-block;
+	margin: 20px 20px;
+}
